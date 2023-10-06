@@ -32,7 +32,6 @@ img {
   display: flex;
   height: 67px;
   padding-top: 15px;
-  font-family: cursive;
   font-weight: bold;
   cursor: pointer;
 }
@@ -106,12 +105,21 @@ h2 {
 .offer {
   font-size: 20px;
   margin-bottom: 20px;
+  margin-left: 80px;
 }
 
 .slideshow-container {
+ 
   max-width: 500px;
   position: relative;
+  
   margin: auto;
+ 
+}
+
+.mySlides img{
+  height: 300px;
+  width: 300px;
 }
 
 /* Caption text */
@@ -304,6 +312,11 @@ footer {
   p {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .offer{
+    font-size: 16px;
+    margin-right: 40px;
   }
 }
 
